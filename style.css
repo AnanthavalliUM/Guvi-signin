@@ -1,0 +1,102 @@
+.body-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.bodyleft {
+    width: 60%;
+    padding: 2em;
+  }
+.img-fluid{
+    position:relative;
+    max-width:50%;
+    height:50%;
+    top: 50px;
+    left: 250px;
+     float: left;
+     display:flex;
+}
+.bodyright{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    font-size: 18px;
+    height: 90%;
+    float: right;
+    /* border: 2px solid #003B62; */
+    font-family: verdana;
+    background-color:whitesmoke;
+    padding-left: 10px;
+}
+.inp1{
+    width:500px;
+    height:10px;
+    padding:20px;
+    margin:20px auto;
+    border:1px solid lightslategrey;
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    font-weight:bold;
+}
+
+.inp{
+    width:550px;
+    height:10px;
+    padding:20px;
+    margin:20px auto;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+}
+label{
+
+     font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:lightslategrey;
+    border-radius: 1px solid green;
+
+
+}
+.logo{
+    width:200px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+   
+}
+button{
+    background-color:rgb(61, 220, 61);
+    color: antiquewhite;
+    text-align: center;
+    width: 590px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid rgb(86, 202, 86);
+
+}
+input::placeholder {
+    font-size: 1.25rem;
+}
+input:focus{
+    color:green;
+}
+span {
+    font-size: 1rem;
+    background-color: #f6f6f9;
+    padding: 0 0.5rem;
+    color: #95a4c2;
+    text-align:center;
+}
+.login{
+    font-size: 20px;
+    text-align: right;
+    padding:5px;
+     margin:5px;
+}
+
+
+
+
